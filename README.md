@@ -3,7 +3,7 @@
 University Application Encyclopedia
 ### Purpose:
 This application is designed for upcoming college students to finetune their academic interests and discover what universities and professors best align with them. By receiving personalized information about universities, faculty, and relevant publications from our app "University Application Encyclopedia", we hope students will have the tools they need to make informed decisions about where to apply for college and which professors to learn from. 
-### Demo: https://mediaspace.illinois.edu/media/t/1_pi2df1nh
+### Demo(Requires Illinois Credentials): https://mediaspace.illinois.edu/media/t/1_pi2df1nh
 ### Installation: 
 We utilized the databases given to us in the academic world and uploaded them to MySQL, MongoDB, and Neo4j via the instructions in previous MPs. After downloading our code files, run the line: python ./app.py This will prompt you to a link which will display our dashboard.
 ### Usage:
@@ -14,6 +14,4 @@ There are 6 widgets that have different capabilities to support our purpose. The
 We utilized the databases given to us under the "academic world" umbrella. In the first widget, we used MySQL to filter out the most popular keywords. In the second widget, we used Neo4j to display the trend of a selected keyword. The next two widgets used mongodb to match publications with keywords and universities with keywords. Lastly we used mySQL again to find the faculty members that have the most number of publications associated with a user inputted keyword. 
 ### Database Techniques:
 Our three primary techniques are indexing, constraints, and prepared statements. We are using indexing when we search for specific fields such as publication_id or keywords.name. This allows us to look for specific characteristics within our databases more efficiently. We are also using constraints in MongoDB by framing our widgets to only allow user to modify the number of citations with none-negative number. Lastly we utilize the prepared statements technique. We can see this in the update profile photo where we specifically state the photo_url and photo_id to be in the query. 
-### Extra-Credit Capabilities:
-### Contributions:
-Both Meng and Runali contributed significantly and equally in the project. Meng helped set up the project and he created four of the initial widgets. Runali proposed the idea of a university/student match system, she contributed two widgets, refined the remaining four, and set the dashboard styling. Individually each member contributed about 12-15 hours on their own and roughly 5-6 hours of shared/syncronous work time. 
+
