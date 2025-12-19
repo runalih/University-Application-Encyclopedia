@@ -1,0 +1,192 @@
+.chart-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 20px;
+}
+
+.chart-box {
+  width: 48%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ffdfbf;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.chart-box:hover {
+  transform: translateY(-5px);
+  /* Slight hover effect */
+}
+
+h2,
+h4 {
+  font-family: 'Arial', sans-serif;
+  color: #4a90e2;
+  /* Pastel blue */
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.dcc-slider,
+.dcc-dropdown,
+.dcc-input {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.dcc-slider {
+  margin-top: 10px;
+}
+
+.dcc-dropdown,
+.dcc-input {
+  border-radius: 8px;
+  padding: 8px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+/* Table Styles */
+.dash-table-container {
+  margin-top: 20px;
+}
+
+.dash-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dash-table-container td,
+.dash-table-container th {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.dash-table-container th {
+  background-color: #4a90e2;
+  /* Pastel blue */
+  color: white;
+  font-weight: bold;
+}
+
+.dash-table-container tr:hover {
+  background-color: #f1f1f1;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content h4 {
+  color: #4a90e2;
+  /* Pastel blue */
+  font-size: 26px;
+}
+
+.modal-content input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.modal-content button {
+  padding: 10px 20px;
+  background-color: #4a90e2;
+  /* Pastel blue */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.modal-content button:hover {
+  background-color: #357ab7;
+  /* Darker blue for hover effect */
+}
+
+/* Input Field */
+.dcc-input {
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+
+@media (max-width: 768px) {
+  .chart-row {
+    flex-direction: column;
+  }
+
+  .chart-box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+#faculty-publications-table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#faculty-publications-table .dash-header {
+  background-color: #4a90e2 !important;
+  /* Pastel blue */
+  color: white !important;
+  font-weight: bold;
+}
+
+#faculty-publications-table .dash-cell {
+  padding: 10px;
+  text-align: left;
+  background-color: #fffdf5;
+  /* Slight pastel background */
+}
+
+#faculty-publications-table .dash-cell:hover {
+  background-color: #fff2cc;
+  /* Soft pastel hover color */
+}
+
+.professor-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.professor-card {
+  width: 220px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.professor-photo {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
