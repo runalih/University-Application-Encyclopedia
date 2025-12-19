@@ -1,4 +1,4 @@
-# Meng_Runali
+# University Application Encyclopedia
 ### Title:
 University Application Encyclopedia
 ### Purpose:
@@ -14,4 +14,5 @@ There are 6 widgets that have different capabilities to support our purpose. The
 We utilized the databases given to us under the "academic world" umbrella. In the first widget, we used MySQL to filter out the most popular keywords. In the second widget, we used Neo4j to display the trend of a selected keyword. The next two widgets used mongodb to match publications with keywords and universities with keywords. Lastly we used mySQL again to find the faculty members that have the most number of publications associated with a user inputted keyword. 
 ### Database Techniques:
 Our three primary techniques are indexing, constraints, and prepared statements. We are using indexing when we search for specific fields such as publication_id or keywords.name. This allows us to look for specific characteristics within our databases more efficiently. We are also using constraints in MongoDB by framing our widgets to only allow user to modify the number of citations with none-negative number. Lastly we utilize the prepared statements technique. We can see this in the update profile photo where we specifically state the photo_url and photo_id to be in the query. 
-
+### Contributors: 
+Runali Hatalkar and Meng An
